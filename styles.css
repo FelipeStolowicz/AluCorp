@@ -4,6 +4,21 @@ html {
   font-family: sans-serif;
 }
 
+.logo-heading-wrapper {
+  display: flex;
+  flex-direction: row ; /* Ensures elements stack vertically */
+  justify-content: flex-end;
+  align-items: center; 
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.company-logo {
+  width: 13%; /* Adjust size as needed */
+  height: auto;
+  margin-right: 40px; /* Space between logo and text */
+}
+
 .hamburger-button.w-nav-button {
   display: none; /* Hidden by default, will be shown on mobile */
   position: absolute;
@@ -806,6 +821,10 @@ textarea.w-input, textarea.w-select {
   
   .hamburger-button.w-nav-button {
     display: flex; /* Show hamburger menu on mobile */
+}
+
+.logo-heading-wrapper{
+  width: 110%;
 }
 
 .w-col {
