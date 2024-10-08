@@ -1764,6 +1764,7 @@ textarea.w-input, textarea.w-select {
 
 .w-nav-menu {
   float: right;
+  margin-right: 400px;
   position: relative;
 }
 
@@ -1854,6 +1855,10 @@ textarea.w-input, textarea.w-select {
 @media screen and (max-width: 767px) {
   .w-nav[data-collapse="small"] .w-nav-menu {
     display: none;
+  }
+
+  .w-nav-menu {
+    margin-right: 0px;
   }
 
   .w-nav[data-collapse="small"] .w-nav-button {
