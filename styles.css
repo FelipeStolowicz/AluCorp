@@ -53,7 +53,7 @@ html {
 }
 
 .w-container {
-  /* max-width: 100%; */
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -640,7 +640,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-container {
-  max-width: 940px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -656,8 +656,8 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-container .w-row {
-  margin-left: -10px;
-  margin-right: -10px;
+  /* margin-left: -10px;
+  margin-right: -10px; */
   background-color: #0094e3;
   /* background-color: #333; */
 }
@@ -747,7 +747,7 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (max-width: 991px) {
   .w-container {
-    max-width: 728px;
+    max-width: 100%;
   }
 
   .w-hidden-main {
@@ -820,7 +820,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .logo-heading-wrapper{
-  width: 110%;
+  width: 100%;
 }
 
 .w-col {
@@ -2343,13 +2343,13 @@ textarea.w-input, textarea.w-select {
   }
 
   .product-image {
-    max-width: 100px;
+    max-width: 100%;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
   .section, .white-box, .footer {
-    padding: 10px; /* Reduce padding on small screens */
+    padding: 0px; /* Reduce padding on small screens */
   }
 
   h1, h2, h3, h4 {
