@@ -39,21 +39,18 @@ html {
 }
 
 .section {
-  padding: 20px;
-  /* background-color: #0094e3; */
-  background-color: #333;
+  max-width: 100%;
+  text-align: center;
+    padding: 80px 10px;
+    position: relative;
 }
-.sectionn {
-  padding: 20px;
-  color: #333;
-  background-color: #333;
-}
+
 .blue-text {
   color: #0094e3; /* Blue text color */
 }
 
 .w-container {
-  max-width: 100%;
+  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -639,11 +636,7 @@ textarea.w-input, textarea.w-select {
   height: 20px;
 }
 
-.w-container {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .w-container:before, .w-container:after {
   content: " ";
@@ -684,7 +677,6 @@ textarea.w-input, textarea.w-select {
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
-  background-color: #333;
 }
 
 .w-col .w-col {
@@ -1996,10 +1988,6 @@ textarea.w-input, textarea.w-select {
   color: white;
 }
 
-.hero-section {
-  padding-top: 242px;
-  padding-bottom: 242px;
-}
 
 .hero-section.centered {
   text-align: center;
@@ -2007,8 +1995,8 @@ textarea.w-input, textarea.w-select {
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   border-bottom: 4px solid #69b9ff;
-  padding-top: 175px;
-  padding-bottom: 165px;
+  padding-top: 135px;
+  padding-bottom: 135px;
 }
 
 /* .container {
@@ -2265,12 +2253,12 @@ textarea.w-input, textarea.w-select {
 
 /* Sección de Accesorios con dos columnas y tres filas */
 .accessories-section {
-  background-color: #0094e3;
+  background-color: #333;
   padding: 80px 0;
 }
 
 .accessories-section .section-heading {
-  color: #333;
+  color: #0094e3;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -2278,7 +2266,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .accessories-section .section-subheading {
-  color: #666;
+  color: #0094e3;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
@@ -2302,7 +2290,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .product-description {
-  color: white;
+  color: #0094e3;
   font-size: 16px;
   font-weight: 400;
   text-align: center; /* Centrar el texto */
@@ -2318,21 +2306,16 @@ textarea.w-input, textarea.w-select {
   background-color: #0094e3; /* Set background color for footer columns */
 }
 
-/* Default text color for the section */
-.sectionn {
-  color: #333; /* Default text color */
-  background-color: #333; /* Background color for the section */
-}
+
 
 /* Specific class for blue text */
 .blue-text {
-  color: #0094e3; /* Blue text color */
+  color: #333; /* Blue text color */
 }
 
 /* White box styles */
 .w-container .white-box {
   padding: 20px;
-  background-color: #333; /* Solid white background */
   margin-bottom: 20px;
 }
 
