@@ -54,6 +54,11 @@ html {
   margin: 0 auto;
 }
 
+.w-containerr {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 .white-box {
   padding: 20px;
